@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+
+<style>
+h1 {
+  color: pink;
+  font-family: verdana;
+  font-size: 300%;
+}
+p  {
+  color: red;
+  font-family: courier;
+  font-size: 160%;
+}
+</style>
+</head>
+<body bgcolor="blue">
+
+{% extends "template.html" %}
+    {% block content %}
+
+<img src="\templates\Vegeta5000.gif" >
+
+
+<h1>This is a heading</h1>
+<p>This is a paragraph.</p>
+
+
+<marquee behavior="scroll" direction="right">Here is some scrolling text... left to right!</marquee>
+<marquee behavior="scroll" direction="left">Here is some scrolling text... left to right, Isn't this badass!</marquee>
+<img src="C:\Users\garre\Downloads\Vegeta\Heretic Garagoly.jpg" alt="Heretic">
+
+
+    {% endblock %}
+
+</body>
+</html>
